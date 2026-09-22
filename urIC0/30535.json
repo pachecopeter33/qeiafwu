@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：项目实践：幂等表实现接口幂等业务实践
+简介：golang grpc 双向流双向通信开发，grpc 双向流，服务端客户端持续互发消息，长连接流式业务场景。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/03249291.html
+
+原标题：坑点：缓存穿透，大量无效请求打穿数据库
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/04240393.html
+
+原标题：golang mysql 时间类型选型避坑
+简介：DNS TTL 配置域名切换生效，调整 DNS 解析 TTL，缩短缓存时间，域名变更后可以快速全网生效。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/30525151.html
+
+原标题：OpenSource：如何高效阅读大型开源项目源码
+简介：golang http 服务并发连接数限制，自定义 listener 统计连接数量，限制最大并发连接数保护服务。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/95057362.html
+
+原标题：golang 系统设计测试环境预发环境生产环境隔离
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/40574727.html
+
+原标题：记一次第三方回调IP变动未更新防火墙拦截
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/73946352.html
+
+原标题：设计思考：系统限流熔断降级完整防护体系
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/07170302.html
+
+原标题：golang 系统设计本地缓存与分布式缓存
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18380625.html
+
+原标题：部署复盘：数据库主从备份恢复演练实践
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/76462595.html
+
+原标题：数据库事务 ACID 原理讲解
+简介：golang 协程泄露问题排查方法，识别 Go 协程泄露现象，分析泄露场景，给出排查定位协程泄露手段。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/95918171.html
+
+原标题：性能笔记：连接池参数调优数据库RPC连接池
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/52614140.html
+
+原标题：golang 系统设计指标聚合计算存储选型对比
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/96351735.html
+
+原标题：nodejs 内存溢出问题排查修复
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/73736351.html
+
+原标题：Hands‑on：简易导出PDF后端生成demo实践
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/41582525.html
+
+原标题：golang 系统设计重试退避策略业务落地
+简介：golang 字符编码转换 go 处理，iconv‑go 做编码转换 gbk utf8 互转，处理老旧系统 gbk 编码数据。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18472526.html
+
+原标题：golang 系统设计故障复盘模板 postmortem 参考
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/03137070.html
+
+原标题：集成测试业务流程编写示例
+简介：文件句柄耗尽资源泄露处理，定位文件句柄泄露，修复文件忘记关闭问题，解决句柄耗尽服务报错。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/84262584.html
+
+原标题：调优方案：容器CPU内存参数压测后调优
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/52613029.html
+
+原标题：Troubleshoot：MySQL字符集utf8非utf8mb4emoji报错
+简介：golang go 项目安全检查漏洞扫描，扫描 go 项目依赖漏洞，代码安全审计，规避安全风险。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/76056350.html
+
+原标题：零基础理解进程、线程基础概念区别
+简介：服务启动依赖顺序配置正确，配置服务启动依赖关系，保证依赖服务就绪之后再启动当前业务服务。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/52039252.html
+
+原标题：golang 系统设计消息 partition 数量设置思路
+简介：golang nilnil interface 陷阱复现，interface 包含类型不为 nil 值为 nil，判 ==nil 返回 false 经典坑。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/08280705.html
+
+原标题：包管理器依赖冲突解决方案
+简介：golang 系统调用跟踪 strace 排查 go 程序，strace 跟踪系统调用，定位文件网络 IO 慢的底层原因。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18381815.html
+
+原标题：调优方案：容器CPU内存参数压测后调优
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18203929.html
+
+原标题：一次数据库死锁现场分析与解决方案记录
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/75947079.html
+
+原标题：golang mongodb 文档结构设计原则
+简介：golang os/exec 安全执行外部命令，规避命令注入漏洞，参数分离，禁止拼接命令字符串执行。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/41504259.html
+
+原标题：golang 系统设计混沌测试故障注入简单示例
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/52715848.html
+
+原标题：实战：单元测试+集成测试完整项目落地实践
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/52727050.html
+
+原标题：大事务拆分防止连接池耗尽
+简介：golang time 时间格式化避坑，Go 时间格式化参考时间牢记，处理时间解析格式化，解决时间输出错乱。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/04130393.html
+
+原标题：项目实践：Docker多环境镜像构建策略实践
+简介：golang systemd 信号与优雅退出配合，systemd 停止服务发送 SIGTERM，go 程序捕获信号优雅关闭。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/98270693.html
+
+原标题：Security：服务器最小权限账号运维实践
+简介：golang go‑zero 配置中心热更新，go‑zero 对接 etcd 配置中心，配置热更新无需重启服务。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/30503858.html
+
+原标题：Debug：序列化反序列化版本不一致解析失败
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18271797.html
+
+原标题：golang 系统设计重试退避策略业务落地
+简介：Git 代码冲突正确处理方式，讲解冲突产生场景，演示冲突文件修改，正确合并代码，防止代码丢失。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/63736350.html
+
+原标题：Architecture：鉴权授权系统架构设计思路
+简介：golang 内存 pprof 定位内存泄漏，pprof 分析内存快照，定位内存泄露对象，解决 Go 程序内存持续上涨。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/07168694.html
+
+原标题：Troubleshoot：跨域偶现失败难以复现问题
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/85047350.html
+
+原标题：golang ci 流水线制品仓库上传下载
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/07388272.html
+
+原标题：性能复盘：网络IO优化减少接口等待时间
+简介：golang systemd 配置 go 服务部署，编写 systemd unit 文件管理 go 服务，开机自启、崩溃自动重启。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/63836471.html
+
+原标题：golang 系统设计 canary 金丝雀部署实操
+简介：golang 单例模式实现几种方式，Go 单例模式多种实现对比，sync.Once 等方式，实现全局唯一实例。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/37473604.html
+
+原标题：踩坑：大事务引发数据库连接池耗尽
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/85170696.html
+
+原标题：WSL 内存上限限制防止资源耗尽
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/30796906.html
+
+原标题：golang 单元测试 table‑driven
+简介：golang httptest 模拟 http 请求单元测试，httptest 模拟 http 请求，测试 http handler 逻辑不用启动服务。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/58684738.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：性能笔记：RPC超时参数优化防止级联阻塞
+简介：golang redis bitmap 位图业务实战，bitmap 做签到统计、用户状态标记，节省大量内存空间。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/08279704.html
+
+原标题：Debug：HTTPS握手失败TLS版本兼容问题
+简介：golang mongodb go 驱动实操教程，mongo‑go‑driver 操作 mongodb，文档增删改查聚合查询。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/96169581.html
+
+原标题：Architecture：API网关核心能力与组件拆分
+简介：golang 命令行参数解析开发，解析命令行入参，开发自定义 CLI 程序，读取启动参数配置服务。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/30403926.html
+
+原标题：golang mysql 时间类型选型避坑
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/30516950.html
+
+原标题：vite 插件开发自定义构建逻辑
+简介：golang panic 崩溃日志完整收集，捕获所有 panic，打印堆栈，记录日志，方便定位崩溃根源。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/30474737.html
+
+原标题：新手指南：本地防火墙端口访问失败排查
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/19381704.html
+
+原标题：开发复盘：避免大报文导致服务OOM优化实践
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/30405149.html
+
+原标题：开发复盘：大事务拆分优化业务性能实践
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/17563528.html
+
+原标题：vite 插件开发自定义构建逻辑
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/81917060.html
+
+原标题：HelloCI：理解持续集成基础工作流程
+简介：golang go ring 环形容器循环队列，ring 环形链表实现循环队列，环形缓冲区业务场景。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/07271796.html
+
+原标题：效率笔记：VSCode插件集合后端前端开发效率
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/52907061.html
+
+原标题：记一次限流组件误配置把正常用户拦截
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/41557360.html
+
+原标题：站内邮件消息通知功能开发
+简介：文件句柄耗尽资源泄露处理，定位文件句柄泄露，修复文件忘记关闭问题，解决句柄耗尽服务报错。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18281704.html
+
+原标题：ServiceWorker 缓存页面更新清理
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/30793929.html
+
+原标题：Debug：多线程共享可变变量产生脏数据
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/40403738.html
+
+原标题：全局本地依赖隔离冲突规避
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/65947360.html
+
+原标题：golang 系统设计 http 接口基准测试实操示例
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/74169282.html
+
+原标题：坑点：依赖包内部携带恶意代码供应链风险
+简介：git rebase 整理提交历史实操，使用 rebase 整理杂乱提交记录，将多条提交合并，保持 git 提交历史干净线性。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/07151405.html
+
+原标题：SDK 版本兼容线上崩溃修复
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/07170526.html
+
+原标题：入门实践：简单批量处理脚本编写
+简介：golang go 输入数据校验防御，所有外部入参严格校验长度格式，防止恶意输入造成业务异常。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/52917252.html
+
+原标题：分页逻辑错误数据漏查修复
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/07169697.html
+
+原标题：从零学习简单分布式ID生成思路
+简介：golang gin 路由分组权限管控，Gin 路由分组，不同分组绑定鉴权中间件，实现接口权限分组管控。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18386949.html
+
+原标题：避坑：Nginx配置错误导致请求丢失Header
+简介：程序性能指标 CPU 内存监控，讲解基础性能指标含义，简单实现监控采集，初步定位程序运行性能瓶颈。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/30402926.html
+
+原标题：项目实践：多租户数据隔离三种方案实操对比
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/37473699.html
+
+原标题：开发复盘：分库分表本地模拟与数据路由实践
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/63830383.html
+
+原标题：Hands‑on：手写简易ORM框架理解底层原理
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/96071696.html
+
+原标题：Hands‑on：静态资源CDN缓存控制头配置实践
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/30607920.html
+
+原标题：golang 项目环境变量加载方案
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/96181415.html
+
+原标题：golang gin 框架接口开发实战
+简介：Git 混乱提交历史清理方法，针对杂乱的提交记录，使用 Git 工具整理，清理无效提交，还原整洁版本历史。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/32615148.html
+
+原标题：monorepo 项目多包管理最佳实践
+简介：golang go 运行时获取编译信息，程序内部读取编译时间 git 版本，接口输出程序版本信息。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/40806958.html
+
+原标题：golang docker 部署 kafka 本地调试
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/04139393.html
+
+原标题：从零编写简易 CLI 命令行工具
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/85941363.html
+
+原标题：golang 系统设计 api 文档 swagger redoc 落地
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18251393.html
+
+原标题：nodejs 集成测试业务流程编写
+简介：全量回归测试提升代码质量，搭建全量回归测试集，版本发布执行回归测试，避免迭代引入旧 bug。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/07463696.html
+
+原标题：golang kafka 消费者组原理讲解
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/58674737.html
+
+原标题：方案设计：批量大数据导出系统架构拆解
+简介：接口签名校验防篡改实现，实现请求签名验签逻辑，校验请求参数未被篡改，提升接口调用安全性。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/74806808.html
+
+原标题：golang k8s 持久化 pv pvc 使用实操
+简介：golang http MaxHeaderBytes 限制请求头，设置 http 最大请求头大小，防止超大 header 攻击。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/96029204.html
+
+原标题：Nginx 静态代理负载均衡全套配置
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/60706160.html
+
+原标题：golang 系统设计配置敏感信息加密存储
+简介：golang hystrix 模式简易熔断实现，简易熔断组件，错误率达到阈值触发熔断，快速失败保护下游。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/26353626.html
+
+原标题：golang 系统设计配置敏感信息加密存储方案
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/30615848.html
+
+三、实战开发｜Practice
+原标题：git stash 代码暂存切换分支
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/07170283.html
+
+原标题：排错：macOS权限保护导致脚本执行被拦截
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/60795838.html
+
+原标题：golang 系统设计消息堆积排查扩容完整步骤
+简介：golang go 服务压测前后性能对比，压测记录 QPS 延迟，优化前后对比，验证优化效果。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/52596959.html
+
+原标题：golang 系统设计单元测试边界条件覆盖思路
+简介：golang 消息死信处理业务逻辑，Go 实现死信队列逻辑，消费失败消息转入死信，不阻塞正常消息队列。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/95039264.html
+
+原标题：golang mysql 分表自增 id 方案
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/52925142.html
+
+原标题：Issue：系统fd快速上涨进程慢慢卡死
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/07241406.html
+
+原标题：Practice：实现接口mock动态返回不同响应
+简介：开发测试生产多环境配置区分，讲解三套环境配置分离思路，配置文件隔离，防止开发配置泄露到生产环境。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/41791707.html
+
+原标题：golang redis 布隆过滤器安装使用
+简介：灰度发布策略服务平滑升级，实现灰度发布逻辑，流量逐步切到新版本，出现问题快速回滚旧版本。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/96069283.html
+
+原标题：golang 系统设计 issue 模板 bug 反馈模板
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/52026252.html
+
+原标题：项目实践：实现数据脱敏组件支持多种脱敏规则
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/39685819.html
+
+原标题：入门实践：使用模板快速生成项目脚手架
+简介：golang map 并发读写 panic 解决方案，map 非并发安全，讲解加锁、sync.map 方案解决并发读写崩溃。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/63726141.html
+
+原标题：golang 优雅关闭 grpc 服务示例
+简介：全局本地依赖隔离冲突规避，区分全局依赖与项目本地依赖，隔离环境，防止全局包干扰项目运行。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18270404.html
+
+原标题：安全笔记：JWT安全风险，签名泄露过期控制
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/52680688.html
+
+原标题：部署复盘：金丝雀发布流量切分实操方案
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/84835157.html
+
+原标题：golang 大文件读取内存优化
+简介：golang fasthttp 高性能 http 库使用，fasthttp 高性能 http 实现，适合超高 QPS 场景，对比 net/http 差异。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/93892685.html
+
+原标题：部署实践：多实例服务部署无状态改造
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/07792572.html
+
+原标题：Git 误删提交代码恢复找回
+简介：golang 云存储 s3 协议对象存储，go s3 客户端，兼容 minio 阿里云 oss，实现文件上传下载签名访问。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/09352493.html
+
+原标题：golang minio 存储桶权限管控配置
+简介：golang go mod exclude 排除依赖版本，exclude 排除有问题依赖版本，规避有 bug 的第三方包。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/74836060.html
+
+原标题：golang 系统设计性能优化通用思路方法论
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/53806030.html
+
+原标题：react hooks 常见陷阱避坑指南
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/96029183.html
+
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：golang 信号捕获程序退出处理，Go 捕获操作系统信号，做资源回收，控制程序退出流程。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/07160304.html
+
+原标题：golang lru 缓存淘汰算法编写
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/28465818.html
+
+原标题：golang 系统设计压测指标 qps rt 错误率讲解
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/07131703.html
+
+原标题：golang redis 计数器防超卖示例
+简介：开发代理服务网络限制解决，搭建本地代理服务，解决开发环境网络访问受限，实现外部接口正常调用。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/63139173.html
+
+原标题：性能笔记：磁盘IO过高业务优化手段
+简介：ORM 框架数据库增删改查实操，使用 ORM 框架完成数据库基础操作，减少手写 SQL，简化业务层数据库交互代码。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18281404.html
+
+原标题：golang 消息队列 kafka 消费开发
+简介：golang grpc protobuf 开发实操，Go gRPC 开发，编写 Protobuf 定义，服务端客户端完整示例。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/85936242.html
+
+原标题：golang mongodb 文档结构设计原则
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/50806959.html
+
+原标题：golang 系统设计单元测试表驱动测试 table‑driven
+简介：golang md5 sha 加密工具实现，实现 MD5、SHA 哈希工具，做数据摘要，用于签名校验场景。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/48576959.html
+
+原标题：golang 系统设计 hot‑reload 热重载 go 开发工具
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/40491808.html
+
+原标题：golang 系统设计 api 网关核心能力完整梳理
+简介：CLI 批量处理工具文件操作开发，开发命令行批量工具，实现批量文件处理，提升重复文件处理效率。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/28270692.html
+
+原标题：项目实践：搭建监控大盘查看系统关键指标
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/96028172.html
+
+原标题：架构复盘：消息队列在业务系统中边界与最佳实践
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/28394020.html
+
+原标题：golang 系统设计线上问题复现思路简单讲解
+简介：接口签名校验防篡改实现，实现请求签名验签逻辑，校验请求参数未被篡改，提升接口调用安全性。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/29240477.html
+
+原标题：golang 系统设计内存复用 sync.pool 使用
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/28282815.html
+
+原标题：golang 系统设计定时任务失败重试告警实现
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/03130293.html
+
+原标题：Hands‑on：简易ID生成雪花算法完整实现
+简介：golang redis bitmap 位图业务实战，bitmap 做签到统计、用户状态标记，节省大量内存空间。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/64836060.html
+
+原标题：golang ip 限流黑名单实现方案
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/41514039.html
+
+原标题：golang ci 流水线自动部署 k8s 示例
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18381726.html
+
+原标题：实战项目：容器健康探针配置完整实践示例
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18170794.html
+
+原标题：开发记录：跨域中间件完整配置与边界处理
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/29380704.html
+
+四、架构设计｜Architecture
+原标题：golang nginx 反向代理 go 服务配置
+简介：灰度发布策略服务平滑升级，实现灰度发布逻辑，流量逐步切到新版本，出现问题快速回滚旧版本。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/95058073.html
+
+原标题：golang 系统设计定时任务分布式锁防重复执行
+简介：nodejs http 服务性能调优实战，调优 Node HTTP 服务内核参数，连接复用，提升接口并发处理能力。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/03130282.html
+
+原标题：golang 系统设计分布式任务调度
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/97130293.html
+
+原标题：golang pprof 线上采集性能数据
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/96060695.html
+
+原标题：坑点：软链接权限问题容器读取文件失败
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/93836275.html
+
+原标题：快速入门简单签名校验实现思路
+简介：接口请求重试容错机制实现，封装请求重试逻辑，遇到临时网络故障自动重试，提升第三方调用稳定性。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/39381037.html
+
+原标题：golang docker 网络模式桥接 host
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/96353596.html
+
+原标题：golang 系统设计结构化日志字段规范约定
+简介：百万数据 Excel 导出内存优化，优化大 Excel 导出逻辑，流式输出，避免一次性加载全部数据造成 OOM。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/96361474.html
+
+原标题：实战：数据库explain执行计划分析实操演练
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/17261683.html
+
+原标题：前后端会话登录状态持久化
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/80412818.html
+
+原标题：Architecture：CI/CD流水线架构完整设计思考
+简介：RPC 报文大小上限调优大请求，调大 RPC 框架报文最大限制，支持传输大体积请求报文不被截断。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/74815148.html
+
+原标题：系统时间同步定时任务偏移
+简介：golang 配置文件多格式兼容加载，同时支持 yaml toml json 多种格式配置文件，灵活适配不同部署环境。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/52705959.html
+
+原标题：模拟登录鉴权权限判断示例
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18191514.html
+
+原标题：golang 系统设计内部服务链路 trace 传递实现
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/40472585.html
+
+原标题：golang 系统设计接口防刷 ip 限流实现
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/30280584.html
+
+原标题：Practice：实现请求body重复读取中间件实践
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/18506814.html
+
+原标题：Hands‑on：模板渲染引擎最小原型实现
+简介：golang recover 捕获 panic 使用边界，recover 只在 defer 内部生效，协程内部必须捕获本协程 panic。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/71926027.html
+
+原标题：后端分页查询逻辑代码实现
+简介：golang 配置文件多环境加载，Go 多环境配置加载实现，读取配置文件环境变量，适配多套运行环境。
+ | 原文链接：http://www.blog.ftllfv.cn/trztn/40415925.html
+
+?
