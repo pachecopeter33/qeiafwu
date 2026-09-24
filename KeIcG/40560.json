@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：项目实践：本地模拟多节点分布式系统实践
+简介：文件描述符优化进程卡死修复，及时关闭文件句柄，控制打开文件数量，解决文件句柄耗尽进程卡死。
+ | 原文链接：m.nawibi.asia/Article/details/8522403.sHtML
+
+原标题：golang 系统设计开发环境本地调试最佳实践
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：m.nawibi.asia/Article/details/7483576.sHtML
+
+原标题：包管理器依赖缓存清理
+简介：新手快速上手 Git 版本控制实操指南，讲解 Git 基础概念与常用命令，结合实操案例，帮助零基础用户掌握版本控制核心能力。
+ | 原文链接：m.nawibi.asia/Article/details/1034353.sHtML
+
+原标题：golang es 查询语句 DSL 实操
+简介：golang consul 服务发现简单示例，对接 Consul 实现服务注册发现，微服务实例自动感知。
+ | 原文链接：m.nawibi.asia/Article/details/8356423.sHtML
+
+原标题：golang 项目环境变量加载方案
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：m.nawibi.asia/Article/details/8913190.sHtML
+
+原标题：缓存穿透防护保护数据库
+简介：golang arp 缓存读取操作，读取系统 arp 缓存表，获取 ip 对应的 mac 地址信息。
+ | 原文链接：m.nawibi.asia/Article/details/4158363.sHtML
+
+原标题：golang es 分页深分页性能优化
+简介：golang go 爬虫 html 解析 goquery，goquery 解析 html 文档，css 选择器提取网页内容，实现网页数据抓取。
+ | 原文链接：m.nawibi.asia/Article/details/3939171.sHtML
+
+原标题：Troubleshooting：防火墙安全组拦截访问请求
+简介：golang 容器信号转发处理问题修复，docker/k8s 正确转发 SIGTERM 信号，保证 go 程序收到信号优雅退出。
+ | 原文链接：m.nawibi.asia/Article/details/4026361.sHtML
+
+原标题：golang 分页查询封装通用工具
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：m.nawibi.asia/Article/details/6305037.sHtML
+
+原标题：踩坑记录：分页逻辑错误造成数据重复输出
+简介：golang go 项目安全检查漏洞扫描，扫描 go 项目依赖漏洞，代码安全审计，规避安全风险。
+ | 原文链接：m.nawibi.asia/Article/details/0606696.sHtML
+
+原标题：效率笔记：批量处理文本命令行工具实战案例
+简介：golang redis zset 实现延时任务队列，zset 存储任务到期时间，轮询到期任务执行，简易延迟队列。
+ | 原文链接：m.nawibi.asia/Article/details/3968384.sHtML
+
+原标题：实战项目：CLI批量文件处理工具开发全过程
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：m.nawibi.asia/Article/details/6373503.sHtML
+
+原标题：部署复盘：金丝雀发布流量切分实操方案
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：m.nawibi.asia/Article/details/5151270.sHtML
+
+原标题：调优方案：数据库索引不要过度建立，权衡写性能
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：m.nawibi.asia/Article/details/2924806.sHtML
+
+原标题：Issue：浏览器缓存ServiceWorker导致旧页面常驻
+简介：macOS 脚本执行权限开启，给 Shell 脚本添加可执行权限，解决 macOS 下脚本无法运行权限报错。
+ | 原文链接：m.nawibi.asia/Article/details/6369484.sHtML
+
+原标题：golang 系统设计定时任务调度时间校准要点
+简介：react hooks 常见陷阱避坑指南，梳理 React Hooks 高频踩坑点，依赖数组、闭包陷阱，写出稳定组件。
+ | 原文链接：m.nawibi.asia/Article/details/2156147.sHtML
+
+原标题：golang 系统设计 canary 金丝雀部署实操
+简介：golang go 泛型实现通用数据结构，泛型实现通用栈队列，复用逻辑支持多种数据类型。
+ | 原文链接：m.nawibi.asia/Article/details/4152403.sHtML
+
+原标题：golang 系统设计缓存故障降级处理方案
+简介：golang 内存 pprof 定位内存泄漏，pprof 分析内存快照，定位内存泄露对象，解决 Go 程序内存持续上涨。
+ | 原文链接：m.nawibi.asia/Article/details/8580486.sHtML
+
+原标题：实践：前后端分离项目登录状态保持完整方案
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：m.nawibi.asia/Article/details/5992703.sHtML
+
+原标题：golang 系统设计代码评审高效沟通原则思路
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：m.nawibi.asia/Article/details/6370695.sHtML
+
+原标题：服务器 Swap 关闭提升响应速度
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：m.nawibi.asia/Article/details/1818068.sHtML
+
+原标题：前后端交互跨域问题完整处理
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：m.nawibi.asia/Article/details/1930149.sHtML
+
+原标题：坑点：npm/pip全局版本与项目本地版本冲突
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：m.nawibi.asia/Article/details/7481695.sHtML
+
+原标题：golang alertmanager 钉钉告警推送
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：m.nawibi.asia/Article/details/0769470.sHtML
+
+原标题：开发复盘：大列表内存分批读取避免OOM实践
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：m.nawibi.asia/Article/details/7480579.sHtML
+
+原标题：golang 系统设计数据库慢请求排查流程
+简介：webpack chunk 分包策略详解，讲解 webpack chunk 分包策略，拆分第三方包与业务代码，优化缓存复用。
+ | 原文链接：m.nawibi.asia/Article/details/6379068.sHtML
+
+原标题：pnpm 包管理工具实战避坑指南
+简介：golang 字符串处理常用技巧汇总，字符串拼接、分割、替换、类型转换实操，规避字符串高频错误。
+ | 原文链接：m.nawibi.asia/Article/details/1535032.sHtML
+
+原标题：golang 系统设计读写分离延迟业务兼容
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：m.nawibi.asia/Article/details/7481918.sHtML
+
+原标题：golang 分布式锁防死锁处理
+简介：网关集成鉴权限流日志一体化，在网关层整合鉴权、限流、请求日志，统一对入口请求做管控处理。
+ | 原文链接：m.nawibi.asia/Article/details/1715917.sHtML
+
+原标题：全局异常处理器接口返回统一
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：m.nawibi.asia/Article/details/5291392.sHtML
+
+原标题：nodejs jwt 登录鉴权完整示例
+简介：nodejs 单元测试 jest 实操教程，Jest 单元测试实操，编写测试用例，mock 依赖，验证业务逻辑正确性。
+ | 原文链接：m.nawibi.asia/Article/details/6162470.sHtML
+
+原标题：Git 仓库瘦身加快克隆下载速度
+简介：golang go‑zero 分布式锁组件使用，go‑zero 内置 redis 分布式锁，业务直接调用实现并发控制。
+ | 原文链接：m.nawibi.asia/Article/details/2926359.sHtML
+
+原标题：零基础理解前后端简单交互流程
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：m.nawibi.asia/Article/details/4051404.sHtML
+
+原标题：express 请求参数校验处理
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：m.nawibi.asia/Article/details/8481507.sHtML
+
+原标题：大事务拆分回滚日志暴涨解决
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：m.nawibi.asia/Article/details/6879361.sHtML
+
+原标题：Practice：模拟数据库故障验证降级逻辑实践
+简介：文件描述符优化进程卡死修复，及时关闭文件句柄，控制打开文件数量，解决文件句柄耗尽进程卡死。
+ | 原文链接：m.nawibi.asia/Article/details/4161381.sHtML
+
+原标题：golang redis 连接池参数最佳值
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：m.nawibi.asia/Article/details/9605738.sHtML
+
+原标题：安全实践：防止重放攻击接口签名方案
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：m.nawibi.asia/Article/details/6590358.sHtML
+
+原标题：开发记录：表单文件类型校验后端安全校验实践
+简介：golang ctx 关闭之后资源释放，context 取消后，监听 Done ()，释放 goroutine 网络 IO 资源。
+ | 原文链接：m.nawibi.asia/Article/details/0706824.sHtML
+
+原标题：入门实践：本地简单代理服务搭建
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：m.nawibi.asia/Article/details/4079473.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：坑点：版本号语义化理解错误依赖版本错乱
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：m.nawibi.asia/Article/details/0705036.sHtML
+
+原标题：Git 混乱提交历史清理方法
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：m.nawibi.asia/Article/details/1883817.sHtML
+
+原标题：开源实践：开源项目如何写好PullRequest
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：m.nawibi.asia/Article/details/8515028.sHtML
+
+原标题：golang dockerfile 多阶段构建详解
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：m.nawibi.asia/Article/details/2812479.sHtML
+
+原标题：调优方案：数据库索引不要过度建立，权衡写性能
+简介：golang 时间轮算法实现延时调度，手写简易时间轮，高并发大量延时任务，降低轮询 CPU 消耗。
+ | 原文链接：m.nawibi.asia/Article/details/4379446.sHtML
+
+原标题：实践：大文件分片上传后端完整实现思路
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：m.nawibi.asia/Article/details/8592625.sHtML
+
+原标题：坑点：版本号语义化理解错误依赖版本错乱
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：m.nawibi.asia/Article/details/6169362.sHtML
+
+原标题：Hands‑on：简易ID生成雪花算法完整实现
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：m.nawibi.asia/Article/details/2918069.sHtML
+
+原标题：Troubleshoot：磁盘打满导致服务全部不可用
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：m.nawibi.asia/Article/details/4039357.sHtML
+
+原标题：express 请求参数校验处理
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：m.nawibi.asia/Article/details/6382728.sHtML
+
+原标题：golang 系统设计缓存一致性方案对比
+简介：缓存基础原理与简单代码实现，讲解缓存设计思路，编写简易缓存逻辑，减少重复计算与重复请求，提升程序响应速度。
+ | 原文链接：m.nawibi.asia/Article/details/7314926.sHtML
+
+原标题：Issue：容器日志驱动配置错误日志全部丢失
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：m.nawibi.asia/Article/details/4118918.sHtML
+
+原标题：内存泄漏定位分析完整流程
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：m.nawibi.asia/Article/details/2958269.sHtML
+
+原标题：部署实践：Nginx高可用配置方案实践
+简介：golang gzip 压缩 http 响应，服务端开启 gzip 压缩，减小接口响应体积，降低网络传输耗时。
+ | 原文链接：m.nawibi.asia/Article/details/1828053.sHtML
+
+原标题：golang mysql 索引失效常见场景
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：m.nawibi.asia/Article/details/7491693.sHtML
+
+原标题：AI实践：大模型生成测试用例实践与校验
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：m.nawibi.asia/Article/details/1713838.sHtML
+
+原标题：Fork 开源项目同步上游代码
+简介：golang 数据库分表策略按时间分片，按时间维度分表，历史数据拆分，单表数据量控制保证查询性能。
+ | 原文链接：m.nawibi.asia/Article/details/6370473.sHtML
+
+原标题：复盘总结：技术方案文档模板架构设计文档
+简介：GitHub 项目提交推送完整流程讲解，从仓库初始化到提交推送远程仓库，梳理全流程细节，避开新手高频错误。
+ | 原文链接：m.nawibi.asia/Article/details/0703828.sHtML
+
+原标题：golang 系统设计内存瓶颈定位优化思路
+简介：网络读取超时设置连接挂起防护，设置网络读取超时时间，防止请求无限挂起不返回，占用连接资源。
+ | 原文链接：m.nawibi.asia/Article/details/5229038.sHtML
+
+原标题：Debug：消息队列死信队列堆积无人处理业务阻塞
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：m.nawibi.asia/Article/details/6284625.sHtML
+
+原标题：内网测试服务搭建团队调试
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：m.nawibi.asia/Article/details/2036162.sHtML
+
+原标题：Architecture：服务注册发现架构原理与选型
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：m.nawibi.asia/Article/details/6485687.sHtML
+
+原标题：接口限流逻辑简单模拟实现
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：m.nawibi.asia/Article/details/1829035.sHtML
+
+原标题：对象存储上传下载权限实操
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：m.nawibi.asia/Article/details/6225147.sHtML
+
+原标题：前端下载导出文件功能实现
+简介：golang 雪花算法 workId 自动获取，自动获取机器 workId，不用手动配置，简化分布式 id 部署。
+ | 原文链接：m.nawibi.asia/Article/details/9289675.sHtML
+
+原标题：golang 系统设计 README 开源文档模板
+简介：golang go embed 嵌入静态资源文件，使用 go embed 把静态文件编译进二进制，单文件部署携带静态资源。
+ | 原文链接：m.nawibi.asia/Article/details/2034133.sHtML
+
+原标题：数据库分表存储大表优化方案
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：m.nawibi.asia/Article/details/3006179.sHtML
+
+原标题：golang 系统设计缓存优化落地实操指南
+简介：数据库分表存储大表优化方案，对超大数据表做分表，拆分数据，降低单表数据量提升查询性能。
+ | 原文链接：m.nawibi.asia/Article/details/3024949.sHtML
+
+原标题：部署实践：DockerCompose管理多服务环境
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：m.nawibi.asia/Article/details/1814918.sHtML
+
+原标题：golang 系统设计开源项目贡献指南 contributing
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：m.nawibi.asia/Article/details/0617258.sHtML
+
+原标题：golang 系统设计代码仓库权限管理方案
+简介：golang defer 执行顺序与坑点，defer 后进先出，循环内部 defer 陷阱，资源释放正确写法。
+ | 原文链接：m.nawibi.asia/Article/details/0713914.sHtML
+
+原标题：golang docker 基础命令实操汇总
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：m.nawibi.asia/Article/details/6089479.sHtML
+
+原标题：ORM 隐式慢查询问题规避
+简介：ORM 隐式慢查询问题规避，识别 ORM 框架隐式查询，避免循环查询数据库，减少不必要慢 SQL 产生。
+ | 原文链接：m.nawibi.asia/Article/details/4857370.sHtML
+
+原标题：golang 系统设计分布式事务几种方案
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：m.nawibi.asia/Article/details/2946262.sHtML
+
+原标题：缓存穿透防护保护数据库
+简介：消息消费重试次数限制防爆炸，限制消息最大重试次数，防止失败消息无限重试造成消息爆炸堆积。
+ | 原文链接：m.nawibi.asia/Article/details/7040303.sHtML
+
+原标题：调优方案：Nginx性能参数调优高并发配置
+简介：golang go 模板缓存预编译模板，预编译 html 模板，程序启动加载，避免每次请求解析模板损耗性能。
+ | 原文链接：m.nawibi.asia/Article/details/3924923.sHtML
+
+原标题：消息消费重试次数限制防爆炸
+简介：多套环境灵活切换配置方案，实现配置动态切换，通过环境变量、配置文件，快速切换开发测试生产环境。
+ | 原文链接：m.nawibi.asia/Article/details/7480583.sHtML
+
+原标题：运维笔记：服务器故障排查常用命令清单
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：m.nawibi.asia/Article/details/4050584.sHtML
+
+原标题：实战：基于DockerCompose搭建本地开发栈
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：m.nawibi.asia/Article/details/0716169.sHtML
+
+原标题：Debug：预加载逻辑错误服务启动时间成倍拉长
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：m.nawibi.asia/Article/details/3833927.sHtML
+
+三、实战开发｜Practice
+原标题：安全复盘：业务登录暴力破解防护完整方案
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：m.nawibi.asia/Article/details/9602918.sHtML
+
+原标题：golang mysql 死锁排查步骤讲解
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：m.nawibi.asia/Article/details/2939028.sHtML
+
+原标题：golang 系统设计 tcc 事务简单原理业务示例
+简介：异步任务堆积消费能力优化，处理消息任务堆积问题，提升消费处理速度，恢复队列正常处理水位。
+ | 原文链接：m.nawibi.asia/Article/details/2933705.sHtML
+
+原标题：Debug：分页偏移量过大数据库查询性能暴跌
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：m.nawibi.asia/Article/details/2715690.sHtML
+
+原标题：性能笔记：数据库表字段设计影响查询性能
+简介：golang sort 切片排序自定义 less，sort.Slice 切片快速排序，自定义 less 函数实现业务排序。
+ | 原文链接：m.nawibi.asia/Article/details/7382292.sHtML
+
+原标题：调优方案：服务实例扩容，水平扩展性能
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：m.nawibi.asia/Article/details/6371351.sHtML
+
+原标题：golang 系统设计缓存优化落地实操指南
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：m.nawibi.asia/Article/details/1727031.sHtML
+
+原标题：前端权限路由动态生成实现
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：m.nawibi.asia/Article/details/9695036.sHtML
+
+原标题：golang 系统设计 protobuf 枚举类型规范写法
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：m.nawibi.asia/Article/details/7405803.sHtML
+
+原标题：日志输出规范防止磁盘爆满
+简介：浏览器本地存储安全使用技巧，讲解 localStorage、sessionStorage 使用边界，规避 XSS 泄露存储数据。
+ | 原文链接：m.nawibi.asia/Article/details/3039079.sHtML
+
+原标题：golang 批量任务协程控制防雪崩
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：m.nawibi.asia/Article/details/2823816.sHtML
+
+原标题：性能笔记：避免频繁创建销毁对象GC优化
+简介：golang go 依赖漏洞检测 govulncheck，govulncheck 扫描依赖安全漏洞，发现项目供应链风险。
+ | 原文链接：m.nawibi.asia/Article/details/3605817.sHtML
+
+原标题：golang 系统设计短信发送限流降级
+简介：golang sync.Cond 条件变量使用，Cond 条件变量协程等待唤醒，复杂并发同步场景。
+ | 原文链接：m.nawibi.asia/Article/details/7048179.sHtML
+
+原标题：golang 系统设计 vscode go 插件调试配置实操
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：m.nawibi.asia/Article/details/3040394.sHtML
+
+原标题：复盘总结：线上故障完整复盘报告模板示例
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：m.nawibi.asia/Article/details/3050391.sHtML
+
+原标题：golang 系统设计网关错误重试超时处理策略
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：m.nawibi.asia/Article/details/1524039.sHtML
+
+原标题：golang 系统设计覆盖索引减少回表查询实现
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：m.nawibi.asia/Article/details/0716958.sHtML
+
+原标题：实战项目：本地搭建Prometheus监控完整demo
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：m.nawibi.asia/Article/details/6047368.sHtML
+
+原标题：开发记录：表单文件类型校验后端安全校验实践
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：m.nawibi.asia/Article/details/1424846.sHtML
+
+原标题：坑点：gitsubmodule子模块更新失败踩坑
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：m.nawibi.asia/Article/details/1712819.sHtML
+
+原标题：程序性能指标 CPU 内存监控
+简介：golang time 时间格式化避坑，Go 时间格式化参考时间牢记，处理时间解析格式化，解决时间输出错乱。
+ | 原文链接：m.nawibi.asia/Article/details/5879570.sHtML
+
+原标题：golang 系统设计分表 id 生成策略对比
+简介：golang 协程泄露问题排查方法，识别 Go 协程泄露现象，分析泄露场景，给出排查定位协程泄露手段。
+ | 原文链接：m.nawibi.asia/Article/details/8494683.sHtML
+
+原标题：Redis 热点 key 拆分降低集群压力
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：m.nawibi.asia/Article/details/4150240.sHtML
+
+原标题：方案对比：本地缓存vs分布式缓存架构取舍
+简介：golang go http 静态文件禁止目录遍历，http.FileServer 防止../ 路径穿越，了解底层安全实现。
+ | 原文链接：m.nawibi.asia/Article/details/6945811.sHtML
+
+原标题：golang k8s 日志收集 efk 简单架构
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：m.nawibi.asia/Article/details/0780380.sHtML
+
+原标题：短信服务封装失败自动重试
+简介：golang map 并发读写 panic 解决方案，map 非并发安全，讲解加锁、sync.map 方案解决并发读写崩溃。
+ | 原文链接：m.nawibi.asia/Article/details/4957933.sHtML
+
+原标题：提交第一个开源 PR 完整流程
+简介：golang http 服务优雅关闭完整示例，接收终止信号，停止接收新请求，等待现有请求处理完毕后退出服务。
+ | 原文链接：m.nawibi.asia/Article/details/3241577.sHtML
+
+原标题：golang 参数校验业务接口处理
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：m.nawibi.asia/Article/details/6915690.sHtML
+
+原标题：运维笔记：线上服务健康检查脚本编写
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：m.nawibi.asia/Article/details/2590247.sHtML
+
+原标题：Debug：分布式会话时钟不同步令牌提前失效
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：m.nawibi.asia/Article/details/9289035.sHtML
+
+原标题：golang 系统设计故障定位排查通用步骤方法论
+简介：golang 探测文件真实内容类型，读取文件头部字节判断真实文件格式，规避后缀伪造。
+ | 原文链接：m.nawibi.asia/Article/details/4702368.sHtML
+
+原标题：坑点：gitsubmodule子模块更新失败踩坑
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：m.nawibi.asia/Article/details/4812356.sHtML
+
+原标题：本地简易配置中心动态管理
+简介：Docker 网络模式容器互通设置，选择合适 Docker 网络模式，实现容器之间网络互相访问通信。
+ | 原文链接：m.nawibi.asia/Article/details/5101579.sHtML
+
+原标题：新手向：项目目录结构规范与含义解析
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：m.nawibi.asia/Article/details/0714657.sHtML
+
+原标题：golang 系统设计第三方调用超时重试熔断
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：m.nawibi.asia/Article/details/1589135.sHtML
+
+原标题：快速入门GraphQL基础查询语法示例
+简介：golang cgo 内存管理 C 与 Go 内存，区分 Go 内存 C 堆内存，防止 cgo 内存泄漏，正确释放 C 内存。
+ | 原文链接：m.nawibi.asia/Article/details/7045799.sHtML
+
+原标题：排错：DockerCompose依赖顺序启动顺序坑
+简介：golang 分表跨表 join 查询处理方案，分表后跨分片关联查询解决方案，业务层聚合代替数据库 join。
+ | 原文链接：m.nawibi.asia/Article/details/4871359.sHtML
+
+原标题：性能笔记：避免频繁创建销毁对象GC优化
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：m.nawibi.asia/Article/details/7448035.sHtML
+
+原标题：golang 系统设计分表字段选择路由规则设计
+简介：golang https 客户端跳过证书校验，开发测试环境跳过 tls 证书校验，仅用于内网测试禁止生产使用。
+ | 原文链接：m.nawibi.asia/Article/details/2509136.sHtML
+
+原标题：灰度发布策略服务平滑升级
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：m.nawibi.asia/Article/details/3901246.sHtML
+
+四、架构设计｜Architecture
+原标题：golang docker 运行 etcd 本地测试
+简介：Git commit 钩子提交规范校验，配置 Git 提交钩子，提交代码自动校验提交信息格式，规范提交记录。
+ | 原文链接：m.nawibi.asia/Article/details/6267914.sHtML
+
+原标题：避坑：CookieSecure属性造成测试环境登录失败
+简介：golang 结构体深浅拷贝区别实操，区分结构体浅拷贝深拷贝，规避指针引用带来数据意外篡改问题。
+ | 原文链接：m.nawibi.asia/Article/details/4700357.sHtML
+
+原标题：golang 优雅关闭 grpc 服务示例
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：m.nawibi.asia/Article/details/0476019.sHtML
+
+原标题：nodejs 集群模式多核利用实现
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：m.nawibi.asia/Article/details/6034792.sHtML
+
+原标题：限流窗口绕过漏洞修复方案
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：m.nawibi.asia/Article/details/0690327.sHtML
+
+原标题：golang redis 五种数据结构实战
+简介：golang go 整洁架构代码组织实践，整洁架构依赖向内，解耦业务逻辑与外部基础设施。
+ | 原文链接：m.nawibi.asia/Article/details/1701450.sHtML
+
+原标题：Performance：长连接管理优化减少连接重建开销
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：m.nawibi.asia/Article/details/6211656.sHtML
+
+原标题：新手向：npm/pip/maven依赖版本冲突入门排查
+简介：游标分页大数据查询性能提升，使用游标分页替代偏移分页，解决大数据 offset 分页性能越来越差问题。
+ | 原文链接：m.nawibi.asia/Article/details/9246680.sHtML
+
+原标题：golang 系统设计敏感数据加密存储方案
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：m.nawibi.asia/Article/details/3601368.sHtML
+
+原标题：线上异常：时间时区问题，定时任务执行偏移
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：m.nawibi.asia/Article/details/0590425.sHtML
+
+原标题：坑点：版本号语义化理解错误依赖版本错乱
+简介：极简方式搭建个人技术文档站点，使用轻量化工具快速部署文档站点，支持 markdown 编写，实现知识沉淀与对外分享。
+ | 原文链接：m.nawibi.asia/Article/details/9459135.sHtML
+
+原标题：API 大版本不兼容平滑迁移
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：m.nawibi.asia/Article/details/3825791.sHtML
+
+原标题：golang 接口返回统一封装工具
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：m.nawibi.asia/Article/details/0602470.sHtML
+
+原标题：Hands‑on：简易验证码生成校验后端实践
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：m.nawibi.asia/Article/details/2801469.sHtML
+
+原标题：golang 系统设计内存瓶颈定位优化思路
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：m.nawibi.asia/Article/details/1783461.sHtML
+
+原标题：实战：基于内存实现简单消息广播组件
+简介：golang sync.Cond 条件变量使用，Cond 条件变量协程等待唤醒，复杂并发同步场景。
+ | 原文链接：m.nawibi.asia/Article/details/9267912.sHtML
+
+原标题：nodejs 定时任务生产环境避坑
+简介：golang strconv 字符串类型转换，字符串转数字布尔，处理转换失败 error，避免 panic。
+ | 原文链接：m.nawibi.asia/Article/details/7034671.sHtML
+
+原标题：Performance：JSON序列化性能优化实践
+简介：golang http 服务优雅关闭完整示例，接收终止信号，停止接收新请求，等待现有请求处理完毕后退出服务。
+ | 原文链接：m.nawibi.asia/Article/details/4930358.sHtML
+
+?
